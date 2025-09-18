@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 1.6;
+    background: #fffaf2; /* soft cream */
+    color: #3b302a;      /* dark text */
+}
+
+/* HEADER */
+header {
+    background: #7bc8a4;   /* spa green */
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-bottom: 5px solid #5fa784; /* darker green accent */
+}
+
+/* NAVBAR */
+nav {
+    background: #5e4433; /* earthy brown */
+    padding: 14px;
+    text-align: center;
+}
+
+nav a {
+    color: #fffaf2;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 600;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    padding-bottom: 4px;
+}
+
+nav a:hover {
+    color: #f5dfa3; /* soft yellow highlight */
+    border-bottom: 2px solid #efba4d; /* accent yellow */
+}
+
+/* HERO / SECTION */
+section {
+    background: url('spa-bg.jpg') no-repeat center center/cover;
+    padding: 70px 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* MAIN CONTENT */
+main {
+    background: #fff;
+    padding: 30px;
+    margin: 30px auto;
+    width: 85%;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+main h2 {
+    margin-bottom: 15px;
+    color: #7bc8a4;
+    font-size: 24px;
+    border-left: 4px solid #efba4d;
+    padding-left: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: #4b3c2a; /* dark greenish brown */
+    color: #fffaf2;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+    font-size: 14px;
+    border-top: 3px solid #efba4d; /* accent yellow */
+}

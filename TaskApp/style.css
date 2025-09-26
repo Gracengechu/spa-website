@@ -1,0 +1,118 @@
+/* ===== General Styles ===== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffafc; /* very light pink/white */
+    color: #3b302a; /* soft dark text */
+}
+
+/* ===== Header ===== */
+header {
+    background-color: #ffccd5; /* soft pink */
+    color: #3b302a;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-style: italic;
+}
+
+/* ===== Navigation ===== */
+nav {
+    background-color: #ffb6c1; /* lighter pink */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #3b302a; /* dark contrast */
+}
+
+/* ===== Banner ===== */
+.banner {
+    background: linear-gradient(to right, #ffccd5, #fff);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.banner h2 {
+    margin: 0;
+    font-size: 2em;
+    color: #3b302a;
+}
+
+/* ===== Main Content ===== */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+main h2 {
+    color: #e75480; /* deep pink */
+}
+
+/* ===== Forms ===== */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, button {
+    padding: 10px;
+    border: 1px solid #ffb6c1;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+input:focus {
+    outline: none;
+    border-color: #e75480;
+    box-shadow: 0 0 5px #e75480;
+}
+
+button {
+    background-color: #e75480;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #c63c63;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffccd5;
+    color: #3b302a;
+    margin-top: 20px;
+    border-top: 2px solid #ffb6c1;
+}
